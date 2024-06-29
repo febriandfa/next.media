@@ -17,7 +17,7 @@ export default function LihatMateriSiswa({ auth }) {
             </div>
             <embed
                 className="rounded-xl w-4/5 h-[60rem] mx-auto"
-                src={`${url}/Materi/file/${materi[0].file}`}
+                src={`/storage/Materi/file/${materi[0].file}`}
                 type="application/pdf"
             />
         </SubLayout>

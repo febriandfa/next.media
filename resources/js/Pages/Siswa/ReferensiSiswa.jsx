@@ -17,7 +17,7 @@ export default function ReferensiSiswa({ auth }) {
                         <img
                             key={index}
                             className="max-h-80"
-                            src={`${url}/Referensi/gambar/${referensi.gambar}`}
+                            src={`/storage/Referensi/gambar/${referensi.gambar}`}
                             alt={`referensi logo ${index}`}
                         />
                     );

@@ -45,7 +45,7 @@ export default function ReferensiGuru({ auth }) {
                         >
                             <img
                                 className="max-h-80"
-                                src={`${url}/Referensi/gambar/${referensi.gambar}`}
+                                src={`/storage/Referensi/gambar/${referensi.gambar}`}
                                 alt={`referensi logo ${index}`}
                             />
                             {hoveredIndex === index && (

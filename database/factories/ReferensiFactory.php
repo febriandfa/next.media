@@ -17,7 +17,7 @@ class ReferensiFactory extends Factory
     public function definition(): array
     {
         return [
-            'gambar' => $this->faker->imageUrl(),
+            'gambar' => $this->faker->randomElement(['placeholder-1.jpg', 'placeholder-2.jpg']),
         ];
     }
 }

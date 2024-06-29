@@ -36,7 +36,7 @@ export default function Profile({ auth }) {
                 </h1>
                 <div className="flex gap-20">
                     <div className="w-60">
-                        <img src={url} alt="" />
+                        <img src="/profile-icon.png" alt="" />
                         <p className="font-semibold text-2xl text-center">
                             {user.name}
                         </p>

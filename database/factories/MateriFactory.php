@@ -18,7 +18,7 @@ class MateriFactory extends Factory
     {
         return [
             'nama' => $this->faker->name(),
-            'file' => $this->faker->imageUrl(),
+            'file' => $this->faker->randomElement(['placeholder-1.pdf']),
             'status' => $this->faker->randomElement(['Ditolak', 'Diterima'])
         ];
     }

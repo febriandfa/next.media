@@ -11,7 +11,11 @@ export default function Sidebar({ auth }) {
                     as="button"
                     className="flex items-center gap-6 mb-24"
                 >
-                    <img className="rounded-full size-24" src={url} alt="" />
+                    <img
+                        className="rounded-full size-24"
+                        src="/profile-icon.png"
+                        alt=""
+                    />
                     <p className="text-2xl line-clamp-2 text-white">
                         {auth.user.name}
                     </p>
